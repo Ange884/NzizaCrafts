@@ -1,0 +1,36 @@
+*{
+    color: black;
+    font-family: 'poppins' , sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:none;
+    padding: 4px 100px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  
+  .nav-links a:hover {
+    color: #00bcd4;
+    cursor: pointer;
+  }
+  
